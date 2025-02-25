@@ -77,3 +77,11 @@ section > div:nth-child(3)::after {
   font-size: 18px;
   background-color: white;
 }
+
+body > section:nth-child(3) {
+  height: 200px;
+  background-color: rgb(153, 240, 153);
+  line-height: 200px;
+  text-align: center;
+  position: relative;
+}
