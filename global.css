@@ -52,3 +52,18 @@ section > div:nth-child(3) > div > div > div > div > span {
 section > div:nth-child(3) > div > div > div > div + div {
   background-color: cadetblue;
 }
+.lorem-satu:hover {
+  background-color: chocolate;
+  transition: all 1s;
+}
+
+section > div:nth-child(3)::before {
+  content: "ini adalah before  ";
+  font-size: 18px;
+  background-color: white;
+}
+section > div:nth-child(3)::after {
+  content: "ini adalah after  ";
+  font-size: 18px;
+  background-color: white;
+}
