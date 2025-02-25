@@ -25,9 +25,30 @@ main > p {
   height: 700px;
 }
 
+section > div {
+  margin: 40px;
+}
 .dua {
   color: orange;
 }
 span {
   color: purple;
+}
+
+div > div {
+  color: blue;
+}
+section > div:nth-child(1) > div > p {
+  background-color: aqua;
+}
+
+div ~ div > div > p {
+  color: red;
+}
+
+section > div:nth-child(3) > div > div > div > div > span {
+  background-color: chartreuse;
+}
+section > div:nth-child(3) > div > div > div > div + div {
+  background-color: cadetblue;
 }
