@@ -3,3 +3,14 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --color-primary: rgb(40, 163, 211);
+  --color-secondary: rgb(40, 163, 211);
+  --color-text-white: rgb(255, 255, 255);
+  --color-text-gray: rgb(214, 218, 219);
+}
+
+h1 {
+  color: var(--color-text-gray);
+}
